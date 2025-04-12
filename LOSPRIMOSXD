@@ -1,0 +1,11 @@
+#include "BluetoothA2DPSink.h"
+
+BluetoothA2DPSink a2dp_sink;
+
+void setup() {
+  a2dp_sink.start("LOS PRIMOS XD SPEAKER"); // Nombre que verás en el Bluetooth
+}
+
+void loop() {
+  // Nada necesario aquí
+}
